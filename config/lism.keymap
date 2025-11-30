@@ -1,11 +1,11 @@
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 200
 #define MOUSE 6
 
+#include <dt-bindings/zmk/mouse.h>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
-#include <dt-bindings/zmk/mouse.h>
 
 &mkp_input_listener { input-processors = <&zip_temp_layer 6 250>; };
 
@@ -184,7 +184,7 @@
         layer_5 {
             display-name = "Macro Layer";
             bindings = <
-&kp LA(F8)  &macro2    &trans                 &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)                    &trans          &kp LS(LC(L))  &macro3  &trans  &trans
+&kp LA(F8)  &macro2    &none                  &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)                    &trans          &kp LS(LC(L))  &macro3  &trans  &trans
 &kp LC(Y)   &kp LC(X)  &kp LS(LC(SEMICOLON))  &kp LC(MINUS)    &trans                               &trans          &trans         &trans   &trans  &trans
 &kp LC(Z)   &kp LC(C)  &macro0                &macro1          &trans                               &trans          &trans         &trans   &trans  &trans
 &trans      &trans     &trans                 &trans           &trans             &trans    &trans  &kp LANGUAGE_2  &trans         &trans   &trans  &trans
