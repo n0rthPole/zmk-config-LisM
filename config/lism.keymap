@@ -202,6 +202,7 @@
         };
 
         layer_7 {
+            display-name = "Brank2 Layer";
             bindings = <
 &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
@@ -209,7 +210,6 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
-            label = "Brank2 Layer";
         };
     };
 };
