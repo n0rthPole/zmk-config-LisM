@@ -347,3 +347,5 @@ layers:
 combos:
 - p: [9, 37]
   k: Alt+Ctl+DEL
+- p: [35, 10]
+  k: Ctl+A

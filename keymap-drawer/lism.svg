@@ -340,6 +340,12 @@ path.combo { stroke: #7f7f7f; }
 <tspan x="588" dy="-0.6em">Alt+Ctl</tspan><tspan x="588" dy="1.2em">+DEL</tspan>
 </text>
 </g>
+<g class="combo combopos-1">
+<path d="M168,140 l123,49" class="combo"/>
+<path d="M168,140 l-123,-49" class="combo"/>
+<rect rx="6" ry="6" x="154" y="127" width="28" height="26" class="combo"/>
+<text x="168" y="140" class="combo tap">Ctl+A</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 280)" class="layer-Number Layer">
@@ -560,6 +566,12 @@ path.combo { stroke: #7f7f7f; }
 <tspan x="588" dy="-0.6em">Alt+Ctl</tspan><tspan x="588" dy="1.2em">+DEL</tspan>
 </text>
 </g>
+<g class="combo combopos-1">
+<path d="M168,140 l123,49" class="combo"/>
+<path d="M168,140 l-123,-49" class="combo"/>
+<rect rx="6" ry="6" x="154" y="127" width="28" height="26" class="combo"/>
+<text x="168" y="140" class="combo tap">Ctl+A</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 560)" class="layer-Mark Layer">
@@ -747,6 +759,12 @@ path.combo { stroke: #7f7f7f; }
 <text x="588" y="112" class="combo tap">
 <tspan x="588" dy="-0.6em">Alt+Ctl</tspan><tspan x="588" dy="1.2em">+DEL</tspan>
 </text>
+</g>
+<g class="combo combopos-1">
+<path d="M168,140 l123,49" class="combo"/>
+<path d="M168,140 l-123,-49" class="combo"/>
+<rect rx="6" ry="6" x="154" y="127" width="28" height="26" class="combo"/>
+<text x="168" y="140" class="combo tap">Ctl+A</text>
 </g>
 </g>
 </g>
@@ -944,6 +962,12 @@ path.combo { stroke: #7f7f7f; }
 <tspan x="588" dy="-0.6em">Alt+Ctl</tspan><tspan x="588" dy="1.2em">+DEL</tspan>
 </text>
 </g>
+<g class="combo combopos-1">
+<path d="M168,140 l123,49" class="combo"/>
+<path d="M168,140 l-123,-49" class="combo"/>
+<rect rx="6" ry="6" x="154" y="127" width="28" height="26" class="combo"/>
+<text x="168" y="140" class="combo tap">Ctl+A</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 1120)" class="layer-Device Layer">
@@ -1115,6 +1139,12 @@ path.combo { stroke: #7f7f7f; }
 <text x="588" y="112" class="combo tap">
 <tspan x="588" dy="-0.6em">Alt+Ctl</tspan><tspan x="588" dy="1.2em">+DEL</tspan>
 </text>
+</g>
+<g class="combo combopos-1">
+<path d="M168,140 l123,49" class="combo"/>
+<path d="M168,140 l-123,-49" class="combo"/>
+<rect rx="6" ry="6" x="154" y="127" width="28" height="26" class="combo"/>
+<text x="168" y="140" class="combo tap">Ctl+A</text>
 </g>
 </g>
 </g>
@@ -1306,6 +1336,12 @@ path.combo { stroke: #7f7f7f; }
 <tspan x="588" dy="-0.6em">Alt+Ctl</tspan><tspan x="588" dy="1.2em">+DEL</tspan>
 </text>
 </g>
+<g class="combo combopos-1">
+<path d="M168,140 l123,49" class="combo"/>
+<path d="M168,140 l-123,-49" class="combo"/>
+<rect rx="6" ry="6" x="154" y="127" width="28" height="26" class="combo"/>
+<text x="168" y="140" class="combo tap">Ctl+A</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 1680)" class="layer-Brank Layer">
@@ -1491,6 +1527,12 @@ path.combo { stroke: #7f7f7f; }
 <tspan x="588" dy="-0.6em">Alt+Ctl</tspan><tspan x="588" dy="1.2em">+DEL</tspan>
 </text>
 </g>
+<g class="combo combopos-1">
+<path d="M168,140 l123,49" class="combo"/>
+<path d="M168,140 l-123,-49" class="combo"/>
+<rect rx="6" ry="6" x="154" y="127" width="28" height="26" class="combo"/>
+<text x="168" y="140" class="combo tap">Ctl+A</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 1960)" class="layer-Brank2 Layer">
@@ -1671,6 +1713,12 @@ path.combo { stroke: #7f7f7f; }
 <text x="588" y="112" class="combo tap">
 <tspan x="588" dy="-0.6em">Alt+Ctl</tspan><tspan x="588" dy="1.2em">+DEL</tspan>
 </text>
+</g>
+<g class="combo combopos-1">
+<path d="M168,140 l123,49" class="combo"/>
+<path d="M168,140 l-123,-49" class="combo"/>
+<rect rx="6" ry="6" x="154" y="127" width="28" height="26" class="combo"/>
+<text x="168" y="140" class="combo tap">Ctl+A</text>
 </g>
 </g>
 </g>
