@@ -122,6 +122,11 @@
             bindings = <&kp LA(LC(DELETE))>;
             key-positions = <9 37>;
         };
+
+        ctrl_a {
+            bindings = <&kp LC(A)>;
+            key-positions = <35 10>;
+        };
     };
 
     keymap {
