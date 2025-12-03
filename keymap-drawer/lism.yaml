@@ -349,3 +349,5 @@ combos:
   k: Alt+Ctl+DEL
 - p: [35, 10]
   k: Ctl+A
+- p: [34, 37]
+  k: LANGUAGE 2
