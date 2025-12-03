@@ -127,6 +127,11 @@
             bindings = <&kp LC(A)>;
             key-positions = <35 10>;
         };
+
+        lang2 {
+            bindings = <&kp LANGUAGE_2>;
+            key-positions = <34 37>;
+        };
     };
 
     keymap {
