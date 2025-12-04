@@ -132,6 +132,16 @@
             bindings = <&kp LANGUAGE_2>;
             key-positions = <34 37>;
         };
+
+        L_click {
+            bindings = <&mkp LCLK>;
+            key-positions = <16 17>;
+        };
+
+        R_click {
+            bindings = <&mkp RCLK>;
+            key-positions = <17 18>;
+        };
     };
 
     keymap {
