@@ -351,3 +351,7 @@ combos:
   k: Ctl+A
 - p: [34, 37]
   k: LANGUAGE 2
+- p: [16, 17]
+  k: '&mkp LCLK'
+- p: [17, 18]
+  k: '&mkp RCLK'
