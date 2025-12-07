@@ -355,3 +355,5 @@ combos:
   k: '&mkp LCLK'
 - p: [17, 18]
   k: '&mkp RCLK'
+- p: [35, 36]
+  k: Caps Word
