@@ -224,6 +224,8 @@
 &trans  &trans  &trans  &trans  &trans                    &trans  &trans    &trans  &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans  &trans    &trans
             >;
+
+            sensor-bindings = <&encoder_msc SCRL_DOWN SCRL_UP>;
         };
 
         layer_7 {
