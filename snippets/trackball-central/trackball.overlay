@@ -21,7 +21,7 @@
         reg = <0>;
         spi-max-frequency = <2000000>;
         irq-gpios = <&xiao_d 6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
-        res-cpi = <1700>;
+        res-cpi = <1600>;
     };
 };
 
@@ -43,7 +43,7 @@
         input-processors = 
             <&zip_xy_to_scroll_mapper>,                         //スクロールモードに変更
             <&zip_scroll_snap>,                                 //スクロールスナップ
-            <&zip_scroll_scaler 1 16>,                          //スクロール量を1/16倍
+            <&zip_scroll_scaler 1 12>,                          //スクロール量を1/16倍
             <&zip_scroll_transform INPUT_TRANSFORM_X_INVERT>;   //スクロールのX軸反転
     };
 };
