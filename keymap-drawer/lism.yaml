@@ -20,7 +20,7 @@ layers:
   - J
   - {t: K, h: Mark Layer}
   - L
-  - {t: '-', h: RIGHT SHIFT}
+  - {t: '-', h: RCTRL}
   - {t: '&kp_exit_AML Z', h: LEFT SHIFT}
   - X
   - C
@@ -30,7 +30,7 @@ layers:
   - M
   - ','
   - {t: ., h: Mouse Layer}
-  - {t: /, h: RCTRL}
+  - {t: /, h: RIGHT SHIFT}
   - LCTRL
   - LEFT GUI
   - LEFT ALT
