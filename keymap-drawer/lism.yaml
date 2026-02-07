@@ -107,11 +107,11 @@ layers:
   - {t: PAGE UP, type: held}
   - Sft+9
   - ''''
-  - ''
+  - INTERNATIONAL 3
   - '%'
   - AMPS
   - AT
-  - INTERNATIONAL 3
+  - {t: ▽, type: trans}
   - Sft+INTERNATIONAL 1
   - ']'
   - PAGE DOWN
