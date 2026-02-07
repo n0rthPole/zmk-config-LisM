@@ -126,8 +126,8 @@ layers:
   - {t: ▽, type: trans}
   - ENTER
   - {t: ▽, type: trans}
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - F12
   Mouse Layer:
   - {t: ▽, type: trans}
