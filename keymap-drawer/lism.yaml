@@ -59,7 +59,7 @@ layers:
   - KP 5
   - KP 6
   - ':'
-  - \
+  - {t: ▽, type: trans}
   - '&mkp MB4'
   - ↑
   - '&mkp MB5'
@@ -101,8 +101,8 @@ layers:
   - '!'
   - Sft+6
   - QUESTION
-  - ']'
-  - \
+  - '['
+  - {t: ▽, type: trans}
   - Sft+8
   - {t: PAGE UP, type: held}
   - Sft+9
@@ -111,11 +111,11 @@ layers:
   - '%'
   - AMPS
   - AT
-  - {t: ▽, type: trans}
-  - Sft+INTERNATIONAL 1
   - INTERNATIONAL 3
+  - Sft+INTERNATIONAL 1
+  - ']'
   - PAGE DOWN
-  - '['
+  - \
   - F11
   - LCTRL
   - LEFT SHIFT
