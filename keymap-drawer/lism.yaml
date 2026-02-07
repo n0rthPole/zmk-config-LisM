@@ -102,7 +102,7 @@ layers:
   - Sft+6
   - QUESTION
   - ']'
-  - '['
+  - \
   - Sft+8
   - {t: PAGE UP, type: held}
   - Sft+9
@@ -115,7 +115,7 @@ layers:
   - Sft+INTERNATIONAL 1
   - INTERNATIONAL 3
   - PAGE DOWN
-  - {t: ▽, type: trans}
+  - '['
   - F11
   - LCTRL
   - LEFT SHIFT
