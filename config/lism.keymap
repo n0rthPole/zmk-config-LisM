@@ -179,10 +179,10 @@
         layer_2 {
             display-name = "Mark Layer";
             bindings = <
-&kp F1     &kp F2          &kp F3            &kp F4        &kp F5                                 &kp F6                   &kp F7             &kp F8         &kp F9         &kp F10
-&kp PLUS   &kp EXCL        &kp LS(NUMBER_6)  &kp QUESTION  &kp LEFT_BRACKET                       &trans                   &kp LS(N8)         &kp PAGE_UP    &kp LS(N9)     &kp SINGLE_QUOTE
-&none      &kp PERCENT     &kp AMPS          &kp AT        &kp INTERNATIONAL_3                    &kp LS(INTERNATIONAL_1)  &kp RIGHT_BRACKET  &kp PAGE_DOWN  &kp BACKSLASH  &kp F11
-&kp LCTRL  &kp LEFT_SHIFT  &kp HASH          &trans        &trans               &trans    &trans  &kp ENTER                &trans             &none          &none          &kp F12
+&kp F1               &kp F2          &kp F3            &kp F4        &kp F5                              &kp F6                   &kp F7             &kp F8         &kp F9         &kp F10
+&kp PLUS             &kp EXCL        &kp LS(NUMBER_6)  &kp QUESTION  &kp LEFT_BRACKET                    &trans                   &kp LS(N8)         &kp PAGE_UP    &kp LS(N9)     &kp SINGLE_QUOTE
+&kp INTERNATIONAL_3  &kp PERCENT     &kp AMPS          &kp AT        &trans                              &kp LS(INTERNATIONAL_1)  &kp RIGHT_BRACKET  &kp PAGE_DOWN  &kp BACKSLASH  &kp F11
+&kp LCTRL            &kp LEFT_SHIFT  &kp HASH          &trans        &trans            &trans    &trans  &kp ENTER                &trans             &none          &none          &kp F12
             >;
         };
 
