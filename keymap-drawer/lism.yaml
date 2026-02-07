@@ -40,9 +40,9 @@ layers:
   - BS
   - {t: ENTER, h: Number Layer}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - Sft+Gui+S
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   Number Layer:
   - ESCAPE
   - KP 7
