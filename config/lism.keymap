@@ -155,10 +155,10 @@
         default_layer {
             display-name = "Default Layer";
             bindings = <
-&lt 4 Q                           &kp W         &kp E         &kp R  &kp T                                           &kp Y        &kp U   &kp I      &kp O      &kp P
-&kp A                             &kp S         &kp D         &kp F  &kp G                                           &kp H        &kp J   &lt 2 K    &kp L      &mt RCTRL MINUS
-&mt_exit_AML_on_tap LEFT_SHIFT Z  &kp X         &kp C         &kp V  &kp B                                           &kp N        &kp M   &kp COMMA  &lt 3 DOT  &mt RIGHT_SHIFT SLASH
-&kp LCTRL                         &kp LEFT_GUI  &kp LEFT_ALT  &none  &lt 2 SPACE  &lt 5 LANGUAGE_1    &kp BACKSPACE  &lt 1 ENTER  &trans  &none      &sl 3      &kp LS(LG(S))
+&lt 4 Q                           &kp W         &kp E         &kp R   &kp T                                           &kp Y        &kp U   &kp I          &kp O      &kp P
+&kp A                             &kp S         &kp D         &kp F   &kp G                                           &kp H        &kp J   &lt 2 K        &kp L      &mt RCTRL MINUS
+&mt_exit_AML_on_tap LEFT_SHIFT Z  &kp X         &kp C         &kp V   &kp B                                           &kp N        &kp M   &kp COMMA      &lt 3 DOT  &mt RIGHT_SHIFT SLASH
+&kp LCTRL                         &kp LEFT_GUI  &kp LEFT_ALT  &trans  &lt 2 SPACE  &lt 5 LANGUAGE_1    &kp BACKSPACE  &lt 1 ENTER  &trans  &kp LS(LG(S))  &trans     &trans
             >;
 
             sensor-bindings = <&encoder_msc SCRL_DOWN SCRL_UP>;
@@ -167,10 +167,10 @@
         layer_1 {
             display-name = "Number Layer";
             bindings = <
-&kp ESCAPE       &kp KP_NUMBER_7             &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp MINUS                         &kp KP_NUM     &kp LS(TAB)     &kp LG(TAB)  &trans           &kp TAB
-&kp KP_MULTIPLY  &kp KP_NUMBER_4             &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp COLON                         &kp BACKSLASH  &mkp MB4        &kp UP       &mkp MB5         &kp SINGLE_QUOTE
-&kp KP_SLASH     &kp KP_NUMBER_1             &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp LS(MINUS)                     &kp LC(HOME)   &kp LEFT_ARROW  &kp DOWN     &kp RIGHT_ARROW  &kp LC(END)
-&mt LCTRL COMMA  &mt LEFT_SHIFT KP_NUMBER_0  &kp KP_DOT       &trans           &kp ENTER      &kp DEL    &trans  &trans         &trans          &trans       &trans           &trans
+&kp ESCAPE       &kp KP_NUMBER_7             &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp MINUS                         &kp KP_NUM    &kp LS(TAB)     &kp LG(TAB)  &trans           &kp TAB
+&kp KP_MULTIPLY  &kp KP_NUMBER_4             &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp COLON                         &trans        &mkp MB4        &kp UP       &mkp MB5         &kp SINGLE_QUOTE
+&kp KP_SLASH     &kp KP_NUMBER_1             &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp LS(MINUS)                     &kp LC(HOME)  &kp LEFT_ARROW  &kp DOWN     &kp RIGHT_ARROW  &kp LC(END)
+&mt LCTRL COMMA  &mt LEFT_SHIFT KP_NUMBER_0  &kp KP_DOT       &trans           &kp ENTER      &kp DEL    &trans  &trans        &trans          &trans       &trans           &trans
             >;
 
             sensor-bindings = <&encoder_msc SCRL_LEFT SCRL_RIGHT>;
@@ -179,10 +179,10 @@
         layer_2 {
             display-name = "Mark Layer";
             bindings = <
-&kp F1     &kp F2          &kp F3            &kp F4        &kp F5                               &kp F6                   &kp F7               &kp F8         &kp F9      &kp F10
-&kp PLUS   &kp EXCL        &kp LS(NUMBER_6)  &kp QUESTION  &kp RIGHT_BRACKET                    &kp LEFT_BRACKET         &kp LS(N8)           &kp PAGE_UP    &kp LS(N9)  &kp SINGLE_QUOTE
-&none      &kp PERCENT     &kp AMPS          &kp AT        &trans                               &kp LS(INTERNATIONAL_1)  &kp INTERNATIONAL_3  &kp PAGE_DOWN  &trans      &kp F11
-&kp LCTRL  &kp LEFT_SHIFT  &kp HASH          &trans        &trans             &trans    &trans  &kp ENTER                &trans               &none          &none       &kp F12
+&kp F1               &kp F2          &kp F3            &kp F4        &kp F5                              &kp F6                   &kp F7             &kp F8         &kp F9         &kp F10
+&kp PLUS             &kp EXCL        &kp LS(NUMBER_6)  &kp QUESTION  &kp LEFT_BRACKET                    &trans                   &kp LS(N8)         &kp PAGE_UP    &kp LS(N9)     &kp SINGLE_QUOTE
+&kp INTERNATIONAL_3  &kp PERCENT     &kp AMPS          &kp AT        &trans                              &kp LS(INTERNATIONAL_1)  &kp RIGHT_BRACKET  &kp PAGE_DOWN  &kp BACKSLASH  &kp F11
+&kp LCTRL            &kp LEFT_SHIFT  &kp HASH          &trans        &trans            &trans    &trans  &kp ENTER                &trans             &trans         &trans         &kp F12
             >;
         };
 
