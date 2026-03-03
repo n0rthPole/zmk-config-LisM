@@ -20,7 +20,7 @@ layers:
   - J
   - {t: K, h: Mark Layer}
   - L
-  - {t: '-', h: RCTRL}
+  - '-'
   - {t: '&kp_exit_AML Z', h: LEFT SHIFT}
   - X
   - C
@@ -42,7 +42,7 @@ layers:
   - {t: ▽, type: trans}
   - Sft+Gui+S
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: ESCAPE, h: RCTRL}
   Number Layer:
   - ESCAPE
   - KP 7
