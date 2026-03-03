@@ -41,10 +41,10 @@ layers:
   - {t: ENTER, h: Number Layer}
   - {t: ▽, type: trans}
   - Sft+Gui+S
-  - {t: ▽, type: trans}
-  - {t: ESCAPE, h: RCTRL}
-  Number Layer:
   - ESCAPE
+  - RCTRL
+  Number Layer:
+  - {t: ▽, type: trans}
   - KP 7
   - KP 8
   - KP 9
