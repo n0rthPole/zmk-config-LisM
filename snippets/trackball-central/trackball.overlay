@@ -30,7 +30,6 @@
     status = "okay";
     device = <&trackball_peripheral>;
     input-processors = 
-        <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>,
         <&zip_xy_to_scroll_mapper>,                         //スクロールモードに変更
         <&zip_scroll_snap>,                                 //スクロールスナップ
         <&zip_scroll_scaler 1 12>,                          //スクロール量を1/16倍
