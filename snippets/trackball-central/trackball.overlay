@@ -28,6 +28,12 @@
 // ペリフェラル（split経由）のリスナーを有効化
 &peripheral_listener {
     status = "okay";
+    input-processors = <
+        &zip_xy_to_scroll_mapper
+        &zip_scroll_snap
+        &zip_scroll_scaler 1 12
+        &zip_scroll_transform INPUT_TRANSFORM_X_INVERT
+    >;
 };
 
 // セントラルのリスナーを有効化し、deviceを紐付け
