@@ -1,3 +1,6 @@
+#include <input/processors.dtsi>
+#include <scroll-snap.dtsi>
+
 &spi0 {
     status = "okay";
 
