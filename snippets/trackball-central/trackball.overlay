@@ -29,10 +29,9 @@
 &peripheral_listener {
     status = "okay";
     device = <&trackball_split>;
-    input-processors = <
-        &zip_scroll_transform INPUT_TRANSFORM_X_INVERT
-        &zip_scroll_snap
-    >;
+    input-processors = 
+        <&zip_scroll_transform INPUT_TRANSFORM_X_INVERT>,
+        <&zip_scroll_snap>;
 };
 
 // セントラルのリスナーを有効化し、deviceを紐付け
