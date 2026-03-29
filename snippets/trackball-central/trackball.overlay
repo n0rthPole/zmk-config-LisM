@@ -28,7 +28,6 @@
 // ペリフェラル（split経由）のリスナーを有効化
 &peripheral_listener {
     status = "okay";
-    device = <&trackball_split>;
 };
 
 // セントラルのリスナーを有効化し、deviceを紐付け
