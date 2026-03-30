@@ -13,8 +13,4 @@
 // Overrides for the input-split child node
 &trackball_split {
     device = <&trackball_peripheral>;
-    input-processors = <
-        &zip_xy_to_scroll_mapper
-        &zip_scroll_scaler 1 10
-    >;
 };
