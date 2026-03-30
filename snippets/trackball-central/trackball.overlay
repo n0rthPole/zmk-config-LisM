@@ -54,16 +54,20 @@
     status = "okay";
     device = <&trackball_split>;
 
+    /* 通常時: 上下スクロールのみ。左右は無効 */
     input-processors = <
         &zip_xy_to_vertical_scroll_mapper
-        &zip_scroll_scaler 1 6
+        &zip_scroll_scaler 1 12
+        &zip_scroll_transform INPUT_TRANSFORM_Y_INVERT
     >;
 
+    /* レイヤー1: 左右スクロールのみ。上下カーソル移動も無効 */
     horizontal_scroll {
         layers = <1>;
         input-processors = <
             &zip_xy_to_horizontal_scroll_mapper
-            &zip_scroll_scaler 1 6
+            &zip_scroll_scaler 1 12
+            &zip_scroll_transform INPUT_TRANSFORM_X_INVERT
         >;
     };
 };
