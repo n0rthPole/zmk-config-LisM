@@ -28,6 +28,7 @@
 // ペリフェラル（split経由）のリスナーを有効化
 &peripheral_listener {
     status = "okay";
+    device = <&trackball_split>;
     input-processors = <&zip_scroll_snap>;
 };
 
