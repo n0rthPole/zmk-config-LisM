@@ -26,6 +26,7 @@
 };
 
 
+/ {
     input_processors {
         zip_xy_to_vertical_scroll_mapper: zip_xy_to_vertical_scroll_mapper {
             compatible = "zmk,input-processor-code-mapper";
