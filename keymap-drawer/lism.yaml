@@ -59,7 +59,7 @@ layers:
   - KP 5
   - KP 6
   - ':'
-  - {t: ▽, type: trans}
+  - ;
   - '&mkp MB4'
   - ↑
   - '&mkp MB5'
