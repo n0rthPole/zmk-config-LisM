@@ -1,4 +1,4 @@
-/delete-node/ &kscan2;
+/delete-node/ /kscan2;
 
 &encoder {
     status = "okay";
