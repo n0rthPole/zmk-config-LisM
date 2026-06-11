@@ -39,7 +39,7 @@ layers:
   - {t: LANGUAGE 1, h: Macro Layer}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', h: Number Layer}
-  - {t: ▽, type: trans}
+  - $$mdi:pan-up$$
   - Sft+Gui+S
   - $$mdi:keyboard-esc$$
   - $$mdi:apple-keyboard-control$$
