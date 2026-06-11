@@ -34,7 +34,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
-  - {t: ▽, type: trans}
+  - $$mdi:pan-up$$
   - {t: '$$mdi:keyboard-space$$', h: Mark Layer}
   - {t: LANGUAGE 1, h: Macro Layer}
   - {t: '$$mdi:backspace$$', type: backspace}
