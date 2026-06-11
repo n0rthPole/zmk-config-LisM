@@ -11,7 +11,7 @@
         zmk,physical-layout = &physical_key_layout;
     };
 
-    physical_42key_layout: physical_42key_layout {
+    physical_key_layout: physical_key_layout {
         compatible = "zmk,physical-layout";
         display-name = "42-Key Layout";
         transform = <&transform_keymap>;
