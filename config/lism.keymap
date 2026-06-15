@@ -119,7 +119,7 @@
     		#binding-cells = <0>;
     		tapping-term-ms = <500>;
     		flavor = "tap-preferred";
-    		bindings = <&msc SCRL_UP &msc SCRL_UP>;
+    		bindings = <&msc SCRL_UP>, <&trans>;
 		};
 
 		ht_scroll_down: ht_scroll_down {
@@ -127,7 +127,7 @@
     		#binding-cells = <0>;
     		tapping-term-ms = <500>;
     		flavor = "tap-preferred";
-    		bindings = <&msc SCRL_DN &msc SCRL_DN>;
+    		bindings = <&msc SCRL_DN>, <&trans>;
 		};
 
 		ht_scroll_left: ht_scroll_left {
@@ -135,7 +135,7 @@
     		#binding-cells = <0>;
     		tapping-term-ms = <500>;
     		flavor = "tap-preferred";
-    		bindings = <&msc SCRL_LEFT &msc SCRL_LEFT>;
+    		bindings = <&msc SCRL_LEFT>, <&trans>;
 		};
 
 		ht_scroll_right: ht_scroll_right {
@@ -143,7 +143,7 @@
     		#binding-cells = <0>;
     		tapping-term-ms = <500>;
     		flavor = "tap-preferred";
-    		bindings = <&msc SCRL_RIGHT &msc SCRL_RIGHT>;
+    		bindings = <&msc SCRL_RIGHT>, <&trans>;
 		};
     };
 
