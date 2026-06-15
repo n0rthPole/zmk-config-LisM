@@ -362,8 +362,9 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(196, 196)" class="key keypos-33">
 <rect rx="6" ry="6" x="-20" y="-20" width="41" height="41" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 64%">&amp;scrl_u_on…</tspan></text>
-<use href="#mdi:pan-up" xlink:href="#mdi:pan-up" x="-6" y="6" height="12" width="12.0" class="key hold glyph mdi:pan-up"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-1.2em">&amp;scrl_u</tspan><tspan x="0" dy="1.2em">SCRL_UP</tspan><tspan x="0" dy="1.2em">0</tspan>
+</text>
 </g>
 <g transform="translate(252, 196)" class="key keypos-34">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -409,18 +410,21 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(146, 238)" class="key keypos-42">
 <rect rx="6" ry="6" x="-20" y="-12" width="41" height="24" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 64%">&amp;scrl_l_on…</tspan></text>
-<use href="#mdi:pan-left" xlink:href="#mdi:pan-left" x="-6" y="-2" height="12" width="12.0" class="key hold glyph mdi:pan-left"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-1.2em" style="font-size: 78%">&amp;scrl_l</tspan><tspan x="0" dy="1.2em" style="font-size: 78%">SCRL_LEFT</tspan><tspan x="0" dy="1.2em" style="font-size: 78%">0</tspan>
+</text>
 </g>
 <g transform="translate(196, 238)" class="key keypos-43">
 <rect rx="6" ry="6" x="-20" y="-12" width="41" height="24" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 64%">&amp;scrl_d_on…</tspan></text>
-<use href="#mdi:pan-down" xlink:href="#mdi:pan-down" x="-6" y="-2" height="12" width="12.0" class="key hold glyph mdi:pan-down"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-1.2em" style="font-size: 78%">&amp;scrl_d</tspan><tspan x="0" dy="1.2em" style="font-size: 78%">SCRL_DOWN</tspan><tspan x="0" dy="1.2em" style="font-size: 78%">0</tspan>
+</text>
 </g>
 <g transform="translate(246, 238)" class="key keypos-44">
 <rect rx="6" ry="6" x="-20" y="-12" width="41" height="24" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 64%">&amp;scrl_r_on…</tspan></text>
-<use href="#mdi:pan-right" xlink:href="#mdi:pan-right" x="-6" y="-2" height="12" width="12.0" class="key hold glyph mdi:pan-right"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-1.2em" style="font-size: 70%">&amp;scrl_r</tspan><tspan x="0" dy="1.2em" style="font-size: 70%">SCRL_RIGHT</tspan><tspan x="0" dy="1.2em" style="font-size: 70%">0</tspan>
+</text>
 </g>
 <g transform="translate(482, 238)" class="key keypos-45">
 <rect rx="6" ry="6" x="-20" y="-12" width="41" height="24" class="key"/>
