@@ -113,6 +113,66 @@
             flavor = "tap-preferred";
             quick-tap-ms = <200>;
         };
+
+        // ── 1回だけ送るマクロ ──────────────────────
+        scrl_u_once: scrl_u_once {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <0>;
+            tap-ms = <10>;
+            bindings = <&msc SCRL_UP>;
+        };
+        scrl_d_once: scrl_d_once {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <0>;
+            tap-ms = <10>;
+            bindings = <&msc SCRL_DOWN>;
+        };
+        scrl_r_once: scrl_r_once {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <0>;
+            tap-ms = <10>;
+            bindings = <&msc SCRL_RIGHT>;
+        };
+        scrl_l_once: scrl_l_once {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <0>;
+            tap-ms = <10>;
+            bindings = <&msc SCRL_LEFT>;
+        };
+
+        // ── hold-tap：タップ→1回 / ホールド0.5秒→連続 ──
+        scrl_u: scrl_u {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            tapping-term-ms = <500>;
+            flavor = "tap-preferred";
+            bindings = <&msc>, <&scrl_u_once>;
+        };
+        scrl_d: scrl_d {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            tapping-term-ms = <500>;
+            flavor = "tap-preferred";
+            bindings = <&msc>, <&scrl_d_once>;
+        };
+        scrl_r: scrl_r {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            tapping-term-ms = <500>;
+            flavor = "tap-preferred";
+            bindings = <&msc>, <&scrl_r_once>;
+        };
+        scrl_l: scrl_l {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            tapping-term-ms = <500>;
+            flavor = "tap-preferred";
+            bindings = <&msc>, <&scrl_l_once>;
+        };
     };
 
     combos {
