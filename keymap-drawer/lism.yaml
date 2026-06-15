@@ -43,9 +43,9 @@ layers:
   - Sft+Gui+S
   - $$mdi:keyboard-esc$$
   - $$mdi:apple-keyboard-control$$
-  - $$mdi:pan-left$$
-  - $$mdi:pan-down$$
-  - $$mdi:pan-right$$
+  - {t: '&scrl_l_once', h: '$$mdi:pan-left$$'}
+  - {t: '&scrl_d_once', h: '$$mdi:pan-down$$'}
+  - {t: '&scrl_r_once', h: '$$mdi:pan-right$$'}
   - $$mdi:pan-left$$
   - $$mdi:pan-down$$
   - $$mdi:pan-right$$
