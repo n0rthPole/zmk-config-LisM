@@ -34,7 +34,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
-  - {t: '&scrl_u_once', h: '&scrl_u_hold SCRL_UP'}
+  - $$mdi:pan-up$$
   - {t: '$$mdi:keyboard-space$$', h: Mark Layer}
   - {t: LANGUAGE 1, h: Macro Layer}
   - {t: '$$mdi:backspace$$', type: backspace}
@@ -43,9 +43,9 @@ layers:
   - Sft+Gui+S
   - $$mdi:keyboard-esc$$
   - $$mdi:apple-keyboard-control$$
-  - {t: '&scrl_l_once', h: '&scrl_l_hold SCRL_LEFT'}
-  - {t: '&scrl_d_once', h: '&scrl_d_hold SCRL_DOWN'}
-  - {t: '&scrl_r_once', h: '&scrl_r_hold SCRL_RIGHT'}
+  - $$mdi:pan-left$$
+  - $$mdi:pan-down$$
+  - $$mdi:pan-right$$
   - $$mdi:pan-left$$
   - $$mdi:pan-down$$
   - $$mdi:pan-right$$
