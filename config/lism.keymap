@@ -115,6 +115,7 @@
         };
 
         // ── hold側マクロ（連続スクロール） ──
+
         scrl_u_hold: scrl_u_hold {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -122,6 +123,7 @@
             tap-ms = <0>;
             bindings = <&msc SCRL_UP>;
         };
+
         scrl_d_hold: scrl_d_hold {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -129,6 +131,7 @@
             tap-ms = <0>;
             bindings = <&msc SCRL_DOWN>;
         };
+
         scrl_r_hold: scrl_r_hold {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -136,6 +139,7 @@
             tap-ms = <0>;
             bindings = <&msc SCRL_RIGHT>;
         };
+
         scrl_l_hold: scrl_l_hold {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -145,6 +149,7 @@
         };
 
         // ── tap側マクロ（1回だけ） ──
+
         scrl_u_once: scrl_u_once {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -152,6 +157,7 @@
             tap-ms = <10>;
             bindings = <&msc SCRL_UP>;
         };
+
         scrl_d_once: scrl_d_once {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -159,6 +165,7 @@
             tap-ms = <10>;
             bindings = <&msc SCRL_DOWN>;
         };
+
         scrl_r_once: scrl_r_once {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -166,6 +173,7 @@
             tap-ms = <10>;
             bindings = <&msc SCRL_RIGHT>;
         };
+
         scrl_l_once: scrl_l_once {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -175,6 +183,7 @@
         };
 
         // ── hold-tap ──
+
         scrl_u: scrl_u {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
@@ -182,6 +191,7 @@
             flavor = "tap-preferred";
             bindings = <&scrl_u_hold>, <&scrl_u_once>;
         };
+
         scrl_d: scrl_d {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
@@ -189,6 +199,7 @@
             flavor = "tap-preferred";
             bindings = <&scrl_d_hold>, <&scrl_d_once>;
         };
+
         scrl_r: scrl_r {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
@@ -196,6 +207,7 @@
             flavor = "tap-preferred";
             bindings = <&scrl_r_hold>, <&scrl_r_once>;
         };
+
         scrl_l: scrl_l {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
@@ -245,11 +257,11 @@
         default_layer {
             display-name = "Default Layer";
             bindings = <
-&lt 4 Q                           &kp W         &kp E                &kp R                &kp T                                                    &kp Y           &kp U           &kp I            &kp O       &kp P
-&kp A                             &kp S         &kp D                &kp F                &kp G                                                    &kp H           &kp J           &lt 2 K          &kp L       &kp MINUS
-&mt_exit_AML_on_tap LEFT_SHIFT Z  &kp X         &kp C                &kp V                &kp B                                                    &kp N           &kp M           &kp COMMA        &lt 3 DOT   &mt RIGHT_SHIFT SLASH
-&kp LCTRL                         &kp LEFT_GUI  &kp LEFT_ALT         &scrl_u SCRL_UP 0    &lt 2 SPACE           &lt 5 LANGUAGE_1    &kp BACKSPACE  &lt 1 ENTER     &msc SCRL_UP    &kp LS(LG(S))    &kp ESCAPE  &kp RCTRL
-                                                &scrl_l SCRL_LEFT 0  &scrl_d SCRL_DOWN 0  &scrl_r SCRL_RIGHT 0                                     &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT
+&lt 4 Q                           &kp W         &kp E           &kp R           &kp T                                               &kp Y           &kp U           &kp I            &kp O       &kp P
+&kp A                             &kp S         &kp D           &kp F           &kp G                                               &kp H           &kp J           &lt 2 K          &kp L       &kp MINUS
+&mt_exit_AML_on_tap LEFT_SHIFT Z  &kp X         &kp C           &kp V           &kp B                                               &kp N           &kp M           &kp COMMA        &lt 3 DOT   &mt RIGHT_SHIFT SLASH
+&kp LCTRL                         &kp LEFT_GUI  &kp LEFT_ALT    &msc SCRL_UP    &lt 2 SPACE      &lt 5 LANGUAGE_1    &kp BACKSPACE  &lt 1 ENTER     &msc SCRL_UP    &kp LS(LG(S))    &kp ESCAPE  &kp RCTRL
+                                                &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT                                     &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT
             >;
 
             sensor-bindings = <&encoder_msc SCRL_DOWN SCRL_UP>;
