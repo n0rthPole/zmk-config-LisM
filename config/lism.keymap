@@ -113,6 +113,38 @@
             flavor = "tap-preferred";
             quick-tap-ms = <200>;
         };
+
+		ht_scroll_up: ht_scroll_up {
+    		compatible = "zmk,behavior-hold-tap";
+    		#binding-cells = <0>;
+    		tapping-term-ms = <500>;
+    		flavor = "tap-preferred";
+    		bindings = <&msc SCRL_UP>, <&msc SCRL_UP>;
+		};
+
+		ht_scroll_down: ht_scroll_down {
+    		compatible = "zmk,behavior-hold-tap";
+    		#binding-cells = <0>;
+    		tapping-term-ms = <500>;
+    		flavor = "tap-preferred";
+    		bindings = <&msc SCRL_DN>, <&msc SCRL_DN>;
+		};
+
+		ht_scroll_left: ht_scroll_left {
+    		compatible = "zmk,behavior-hold-tap";
+    		#binding-cells = <0>;
+    		tapping-term-ms = <500>;
+    		flavor = "tap-preferred";
+    		bindings = <&msc SCRL_LEFT>, <&msc SCRL_LEFT>;
+		};
+
+		ht_scroll_right: ht_scroll_right {
+    		compatible = "zmk,behavior-hold-tap";
+    		#binding-cells = <0>;
+    		tapping-term-ms = <500>;
+    		flavor = "tap-preferred";
+    		bindings = <&msc SCRL_RIGHT>, <&msc SCRL_RIGHT>;
+		};
     };
 
     combos {
