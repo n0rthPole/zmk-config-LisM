@@ -1,4 +1,4 @@
-#define ZMK_POINTING_DEFAULT_SCRL_VAL 200
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 20
 #define MOUSE 6
 
 #include <dt-bindings/zmk/mouse.h>
@@ -112,108 +112,6 @@
             tapping-term-ms = <250>;
             flavor = "tap-preferred";
             quick-tap-ms = <200>;
-        };
-
-        // ── hold側マクロ（連続スクロール） ──
-
-        scrl_u_hold: scrl_u_hold {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <0>;
-            tap-ms = <0>;
-            bindings = <&msc SCRL_UP>;
-        };
-
-        scrl_d_hold: scrl_d_hold {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <0>;
-            tap-ms = <0>;
-            bindings = <&msc SCRL_DOWN>;
-        };
-
-        scrl_r_hold: scrl_r_hold {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <0>;
-            tap-ms = <0>;
-            bindings = <&msc SCRL_RIGHT>;
-        };
-
-        scrl_l_hold: scrl_l_hold {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <0>;
-            tap-ms = <0>;
-            bindings = <&msc SCRL_LEFT>;
-        };
-
-        // ── tap側マクロ（1回だけ） ──
-
-        scrl_u_once: scrl_u_once {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <0>;
-            tap-ms = <10>;
-            bindings = <&msc SCRL_UP>;
-        };
-
-        scrl_d_once: scrl_d_once {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <0>;
-            tap-ms = <10>;
-            bindings = <&msc SCRL_DOWN>;
-        };
-
-        scrl_r_once: scrl_r_once {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <0>;
-            tap-ms = <10>;
-            bindings = <&msc SCRL_RIGHT>;
-        };
-
-        scrl_l_once: scrl_l_once {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <0>;
-            tap-ms = <10>;
-            bindings = <&msc SCRL_LEFT>;
-        };
-
-        // ── hold-tap ──
-
-        scrl_u: scrl_u {
-            compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <2>;
-            tapping-term-ms = <500>;
-            flavor = "hold-preferred";
-            bindings = <&scrl_u_hold>, <&scrl_u_once>;
-        };
-
-        scrl_d: scrl_d {
-            compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <2>;
-            tapping-term-ms = <500>;
-            flavor = "hold-preferred";
-            bindings = <&scrl_d_hold>, <&scrl_d_once>;
-        };
-
-        scrl_r: scrl_r {
-            compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <2>;
-            tapping-term-ms = <500>;
-            flavor = "hold-preferred";
-            bindings = <&scrl_r_hold>, <&scrl_r_once>;
-        };
-
-        scrl_l: scrl_l {
-            compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <2>;
-            tapping-term-ms = <500>;
-            flavor = "hold-preferred";
-            bindings = <&scrl_l_hold>, <&scrl_l_once>;
         };
     };
 
