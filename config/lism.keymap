@@ -150,7 +150,7 @@
     combos {
         compatible = "zmk,combos";
 
-        alt+ctrl+del {
+        alt_ctrl_del {
             bindings = <&kp LA(LC(DELETE))>;
             key-positions = <9 37>;
         };
