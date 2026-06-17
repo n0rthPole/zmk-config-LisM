@@ -192,11 +192,11 @@
         layer_3 {
             display-name = "Mouse Layer";
             bindings = <
-&trans  &kp LG(LEFT_ARROW)      &kp LG(D)               &kp LG(RIGHT_ARROW)      &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &kp LS(LG(LEFT_ARROW))  &kp LS(LC(UP_ARROW))    &kp LS(LG(RIGHT_ARROW))  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &kp LS(LC(LEFT_ARROW))  &kp LS(LC(DOWN_ARROW))  &kp LS(LC(RIGHT_ARROW))  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans                  &trans                  &trans                   &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                                &trans                  &trans                   &trans                    &trans  &trans  &trans
+&kp LC(LG(LEFT_ARROW))  &kp LG(LEFT_ARROW)      &kp LG(D)               &kp LG(RIGHT_ARROW)      &kp LG(LC(RIGHT_ARROW))                    &trans  &trans  &trans  &trans  &trans
+&trans                  &kp LS(LG(LEFT_ARROW))  &kp LS(LC(UP_ARROW))    &kp LS(LG(RIGHT_ARROW))  &trans                                     &trans  &trans  &trans  &trans  &trans
+&trans                  &kp LS(LC(LEFT_ARROW))  &kp LS(LC(DOWN_ARROW))  &kp LS(LC(RIGHT_ARROW))  &trans                                     &trans  &trans  &trans  &trans  &trans
+&trans                  &trans                  &trans                  &trans                   &trans                   &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                                                &trans                  &trans                   &trans                                     &trans  &trans  &trans
             >;
         };
 
