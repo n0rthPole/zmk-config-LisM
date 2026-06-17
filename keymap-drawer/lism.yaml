@@ -148,11 +148,11 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   Mouse Layer:
-  - {t: ▽, type: trans}
+  - Ctl+Gui+$$mdi:arrow-left-bold$$
   - Gui+$$mdi:arrow-left-bold$$
   - Gui+D
   - Gui+$$mdi:arrow-right-bold$$
-  - {t: ▽, type: trans}
+  - Gui+Ctl+$$mdi:arrow-right-bold$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
