@@ -20,6 +20,13 @@
 };
 
 / {
+    zip_temp_layer: zip_temp_layer {
+        compatible = "zmk,behavior-drag-scroll";
+        #binding-cells = <0>;
+        min-drag-distance = <12>;
+    };
+
+/ {
     macros {
         exit_AML: exit_AML {
             compatible = "zmk,behavior-macro";
