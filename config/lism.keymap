@@ -26,7 +26,6 @@
         min-drag-distance = <12>;
     };
 
-/ {
     macros {
         exit_AML: exit_AML {
             compatible = "zmk,behavior-macro";
