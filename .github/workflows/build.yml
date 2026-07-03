@@ -2,7 +2,7 @@ name: Build ZMK firmware
 on:
   workflow_dispatch:
   push:
-    branches: [ stick-test ]
+    branches: [ 4way-stick ]
     paths:
       - '.github/workflows/build.yml'
       - 'boards/**'
