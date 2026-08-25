@@ -44,6 +44,13 @@
             bindings = <&kp LA(H) &kp M &kp C &kp ENTER>;
             label = "MACRO1";
         };
+
+        macro2: macro2 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(G) &kp LA(S) &kp K &kp ENTER>;
+            label = "MACRO2";
+        };
     };
 
     behaviors {
