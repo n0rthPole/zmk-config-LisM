@@ -106,11 +106,11 @@
         default_layer {
             display-name = "Default Layer";
             bindings = <
-&kp Q         &kp W       &kp E           &kp R           &kp T                                          &kp Y           &kp U           &kp I            &kp O       &kp P
-&kp A         &mt LALT S  &mt LSHIFT D    &mt LGUI F      &mt LCTRL G                                    &mt RCTRL H     &mt RGUI J      &mt RSHIFT K     &mt RALT L  &lt 3 SEMICOLON
-&kp Z         &kp X       &kp C           &kp V           &kp B                                          &kp N           &kp M           &kp COMMA        &kp DOT     &kp SLASH
-&lt 4 DELETE  &tog 1      &lt 1 TAB       &msc SCRL_UP    &lt 2 SPACE      &lt 3 ESC    &lt 3 BACKSPACE  &lt 2 ENTER     &msc SCRL_UP    &kp F7           &kp F10     &lt 4 F12
-                          &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT                                &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT
+&lt 4 Q    &kp W         &kp E           &kp R           &kp T                                               &kp Y           &kp U           &kp I            &kp O      &kp P
+&kp A      &mt LALT S    &mt LSHIFT D    &mt LGUI F      &mt LCTRL G                                         &kp H           &kp J           &lt 2 K          &kp L      &kp MINUS
+&kp Z      &kp X         &kp C           &kp V           &kp B                                               &kp N           &kp M           &kp COMMA        &lt 3 DOT  &mt LEFT_SHIFT SLASH
+&kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT    &msc SCRL_UP    &lt 2 SPACE      &lt 5 LANGUAGE_1    &kp BACKSPACE  &lt 1 ENTER     &msc SCRL_UP    &kp LS(LG(S))    &kp ESC    &kp LCTRL
+                         &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT                                     &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT
             >;
 
             sensor-bindings = <&rsr_scrl &rsr_scrl>;
@@ -164,10 +164,10 @@
             status = "reserved";
             display-name = "Brank Layer";
             bindings = <
-&kp LA(F8)  &trans     &trans            &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)                    &trans  &kp LS(LC(L))  &trans  &trans  &trans
-&kp LC(Y)   &kp LC(X)  &kp LS(LC(SEMI))  &kp LC(MINUS)    &trans                               &trans  &trans         &trans  &trans  &trans
-&kp LC(Z)   &kp LC(C)  &trans            &trans           &trans                               &trans  &trans         &trans  &trans  &trans
-&trans      &trans     &trans            &trans           &trans             &trans    &trans  &trans  &trans         &trans  &trans  &trans
+&kp LA(F8)  &macro2    &trans            &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)                    &trans  &kp LS(LC(L))  &macro3  &trans  &trans
+&kp LC(Y)   &kp LC(X)  &kp LS(LC(SEMI))  &kp LC(MINUS)    &trans                               &trans  &trans         &trans   &trans  &trans
+&kp LC(Z)   &kp LC(C)  &macro0           &macro1          &trans                               &trans  &trans         &trans   &trans  &trans
+&trans      &trans     &trans            &trans           &trans             &trans    &trans  &trans  &trans         &trans   &trans  &trans
                        &trans            &trans           &trans                               &trans  &trans         &trans
             >;
         };
