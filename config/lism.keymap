@@ -87,13 +87,13 @@
         };
 
         layer_3 {
-            display-name = "Mark Layer";
+            display-name = "Mouse Layer";
             bindings = <
-&kp LS(LG(N4))  &kp F4   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none                        &kp TILDE  &kp EXCLAMATION  &kp AT_SIGN       &kp HASH           &kp DOLLAR
-&emoji          &kp F5   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &none                        &kp GRAVE  &kp UNDER        &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp BACKSLASH
-&kp KP_NUMLOCK  &kp F11  &kp LEFT_BRACE        &kp RIGHT_BRACE        &none                        &kp PIPE   &kp PERCENT      &kp CARET         &kp AMPERSAND      &kp ASTERISK
-&trans          &trans   &kp NUMBER_0          &trans                 &kp SPACE  &trans    &trans  &kp ENTER  &trans           &none             &none              &kp F12
-                         &trans                &trans                 &trans                       &trans     &trans           &trans
+&kp LC(LG(LEFT_ARROW))  &kp LG(LEFT_ARROW)      &kp LG(D)               &kp LG(RIGHT_ARROW)      &kp LC(LG(RIGHT_ARROW))                    &trans  &trans  &trans  &trans  &trans
+&trans                  &kp LS(LG(LEFT_ARROW))  &kp LS(LC(UP_ARROW))    &kp LS(LG(RIGHT_ARROW))  &trans                                     &trans  &trans  &trans  &trans  &trans
+&trans                  &kp LS(LC(LEFT_ARROW))  &kp LS(LC(DOWN_ARROW))  &kp LS(LC(RIGHT_ARROW))  &trans                                     &trans  &trans  &trans  &trans  &trans
+&trans                  &trans                  &trans                  &trans                   &trans                   &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                                                &trans                  &trans                   &trans                                     &trans  &trans  &trans
             >;
         };
 
