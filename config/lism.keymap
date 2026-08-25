@@ -67,10 +67,10 @@
         layer_1 {
             display-name = "Number Layer";
             bindings = <
-&trans           &kp KP_NUMBER_7             &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp MINUS                                &kp KP_NUM    &kp LS(TAB)  &kp LG(TAB)  &trans        &kp TAB
-&kp KP_MULTIPLY  &kp KP_NUMBER_4             &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp COLON                                &kp LG(UP)    &mkp MB1     &mkp MB2     &msc SCRL_UP  &msc SCRL_DOWN
-&kp KP_SLASH     &kp KP_NUMBER_1             &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp LS(MINUS)                            &kp LG(DOWN)  &kp LEFT     &kp UP       &kp RIGHT     &trans
-&mt LCTRL COMMA  &mt LEFT_SHIFT KP_NUMBER_0  &kp KP_DOT       &trans           &kp ENTER      &kp LA(DELETE)    &trans  &trans        &trans       &kp DOWN     &trans        &kp LG(W)
+&trans           &kp KP_NUMBER_7             &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp MINUS                                &kp KP_NUM    &kp LS(TAB)  &kp LG(TAB)     &trans     &kp TAB
+&kp KP_MULTIPLY  &kp KP_NUMBER_4             &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp COLON                                &kp SEMI      &mkp MB4     &kp UP_ARROW    &mkp MB5   &kp SINGLE_QUOTE
+&kp KP_SLASH     &kp KP_NUMBER_1             &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp LS(MINUS)                            &kp LC(HOME)  &kp LEFT     &kp DOWN_ARROW  &kp RIGHT  &kp LC(END)
+&mt LCTRL COMMA  &mt LEFT_SHIFT KP_NUMBER_0  &kp KP_DOT       &trans           &kp ENTER      &kp LA(DELETE)    &trans  &trans        &trans       &trans          &trans     &trans
                                              &trans           &trans           &trans                                   &trans        &trans       &trans
             >;
         };
