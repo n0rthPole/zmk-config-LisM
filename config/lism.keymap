@@ -78,14 +78,12 @@
         layer_2 {
             display-name = "Mark Layer";
             bindings = <
-&kp F1     &kp F2        &kp F3               &kp F4        &kp F5                              &kp F6                   &kp F7             &kp F8         &kp F9         &kp F10
-&kp PLUS   &kp EXCL      &mt LSHIFT NUMBER_6  &kp QUESTION  &kp LEFT_BRACKET                    &trans                   &kp LS(N8)         &kp PG_UP      &kp LS(N9)     &kp SINGLE_QUOTE
-&kp SLASH  &kp NUMBER_1  &kp NUMBER_2         &kp NUMBER_3  &kp PLUS                            &kp LS(INTERNATIONAL_1)  &kp RIGHT_BRACKET  &kp PAGE_DOWN  &kp BACKSLASH  &kp F11
-&trans     &kp DOT       &kp NUMBER_0         &kp UP        &kp LANG2         &trans    &trans  &kp ENTER                &trans             &trans         &trans         &kp F12
-                         &kp LEFT             &kp DOWN      &kp RIGHT                           &trans                   &trans             &trans
+&kp F1               &kp F2          &kp F3               &kp F4        &kp F5                              &kp F6                   &kp F7             &kp F8         &kp F9         &kp F10
+&kp PLUS             &kp EXCL        &mt LSHIFT NUMBER_6  &kp QUESTION  &kp LEFT_BRACKET                    &trans                   &kp LS(N8)         &kp PG_UP      &kp LS(N9)     &kp SINGLE_QUOTE
+&kp INTERNATIONAL_3  &kp PERCENT     &kp AMPERSAND        &kp AT        &trans                              &kp LS(INTERNATIONAL_1)  &kp RIGHT_BRACKET  &kp PAGE_DOWN  &kp BACKSLASH  &kp F11
+&kp LCTRL            &kp LEFT_SHIFT  &kp HASH             &trans        &trans            &trans    &trans  &kp ENTER                &trans             &trans         &trans         &kp F12
+                                     &kp LEFT             &kp DOWN      &kp RIGHT                           &trans                   &trans             &trans
             >;
-
-            sensor-bindings = <&encoder_kp C_VOL_UP C_VOL_DN>;
         };
 
         layer_3 {
