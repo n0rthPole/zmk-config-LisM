@@ -30,6 +30,20 @@
                 <&macro_release>,
                 <&kp CAPSLOCK>;
         };
+
+        macro0: macro0 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(LC(V)) &kp V &kp ENTER>;
+            label = "MACRO0";
+        };
+
+        macro1: macro1 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(H) &kp M &kp C &kp ENTER>;
+            label = "MACRO1";
+        };
     };
 
     behaviors {
