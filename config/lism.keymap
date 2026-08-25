@@ -76,6 +76,30 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        alt_ctrl_del {
+            bindings = <&kp LA(LC(DELETE))>;
+            key-positions = <9 37>;
+        };
+
+        lang2 {
+            bindings = <&kp LANGUAGE_2>;
+            key-positions = <34 37>;
+        };
+
+        L_click {
+            bindings = <&mkp LCLK>;
+            key-positions = <16 17>;
+        };
+
+        R_clicl {
+            bindings = <&mkp RCLK>;
+            key-positions = <18 17>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
