@@ -19,9 +19,7 @@
     flavor = "balanced";
 };
 
-&caps_word {
-    continue-list = <UNDERSCORE BACKSPACE DELETE SPACE MINUS>;
-};
+&caps_word { continue-list = <UNDERSCORE BACKSPACE DELETE SPACE MINUS>; };
 
 / {
     macros {
@@ -229,11 +227,11 @@
         layer_6 {
             display-name = "Brank Layer";
             bindings = <
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans    &trans  &trans    &trans
-&trans  &trans  &trans  &trans  &trans                    &trans  &mkp MB1  &trans  &mkp MB2  &trans
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans    &trans  &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans  &trans    &trans
-                &trans  &trans  &trans                    &trans  &trans    &trans
+&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans    &trans
+&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &mkp MB2  &mkp MB1
+&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans    &trans
+                &trans  &trans  &trans                    &trans  &trans  &trans
             >;
 
             sensor-bindings = <&encoder_msc SCRL_DOWN SCRL_UP>;
