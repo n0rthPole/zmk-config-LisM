@@ -311,10 +311,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - $$mdi:mouse-left-click-outline$$
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - $$mdi:mouse-right-click-outline$$
-  - {t: ▽, type: trans}
+  - $$mdi:mouse-left-click-outline$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
