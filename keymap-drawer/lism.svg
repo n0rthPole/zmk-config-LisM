@@ -394,13 +394,11 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(588, 196)" class="key keypos-39">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">Sft+Gui</tspan><tspan x="0" dy="1.2em">+S</tspan>
-</text>
-</g>
-<g transform="translate(644, 196)" class="key keypos-40">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:keyboard-esc"/>
+</g>
+<g transform="translate(644, 196)" class="key trans keypos-40">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
+<text x="0" y="0" class="key trans tap">▽</text>
 </g>
 <g transform="translate(700, 196)" class="key keypos-41">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -463,6 +461,12 @@ path.combo { stroke: #7f7f7f; }
 <path d="M364,196 l37,0" class="combo"/>
 <rect rx="6" ry="6" x="350" y="183" width="28" height="26" class="combo"/>
 <use href="#mdi:alpha-w-box" xlink:href="#mdi:alpha-w-box" x="355" y="187" height="18" width="18.0" class="combo tap glyph mdi:alpha-w-box"/>
+</g>
+<g class="combo combopos-6">
+<rect rx="6" ry="6" x="602" y="183" width="28" height="26" class="combo"/>
+<text x="616" y="196" class="combo tap">
+<tspan x="616" dy="-0.6em">Sft+Gui</tspan><tspan x="616" dy="1.2em">+S</tspan>
+</text>
 </g>
 </g>
 </g>
@@ -730,6 +734,12 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="350" y="183" width="28" height="26" class="combo"/>
 <use href="#mdi:alpha-w-box" xlink:href="#mdi:alpha-w-box" x="355" y="187" height="18" width="18.0" class="combo tap glyph mdi:alpha-w-box"/>
 </g>
+<g class="combo combopos-6">
+<rect rx="6" ry="6" x="602" y="183" width="28" height="26" class="combo"/>
+<text x="616" y="196" class="combo tap">
+<tspan x="616" dy="-0.6em">Sft+Gui</tspan><tspan x="616" dy="1.2em">+S</tspan>
+</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 616)" class="layer-Mark Layer">
@@ -965,6 +975,12 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="350" y="183" width="28" height="26" class="combo"/>
 <use href="#mdi:alpha-w-box" xlink:href="#mdi:alpha-w-box" x="355" y="187" height="18" width="18.0" class="combo tap glyph mdi:alpha-w-box"/>
 </g>
+<g class="combo combopos-6">
+<rect rx="6" ry="6" x="602" y="183" width="28" height="26" class="combo"/>
+<text x="616" y="196" class="combo tap">
+<tspan x="616" dy="-0.6em">Sft+Gui</tspan><tspan x="616" dy="1.2em">+S</tspan>
+</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 924)" class="layer-Mouse Layer">
@@ -1195,6 +1211,12 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="350" y="183" width="28" height="26" class="combo"/>
 <use href="#mdi:alpha-w-box" xlink:href="#mdi:alpha-w-box" x="355" y="187" height="18" width="18.0" class="combo tap glyph mdi:alpha-w-box"/>
 </g>
+<g class="combo combopos-6">
+<rect rx="6" ry="6" x="602" y="183" width="28" height="26" class="combo"/>
+<text x="616" y="196" class="combo tap">
+<tspan x="616" dy="-0.6em">Sft+Gui</tspan><tspan x="616" dy="1.2em">+S</tspan>
+</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 1232)" class="layer-Device Layer">
@@ -1416,6 +1438,12 @@ path.combo { stroke: #7f7f7f; }
 <path d="M364,196 l37,0" class="combo"/>
 <rect rx="6" ry="6" x="350" y="183" width="28" height="26" class="combo"/>
 <use href="#mdi:alpha-w-box" xlink:href="#mdi:alpha-w-box" x="355" y="187" height="18" width="18.0" class="combo tap glyph mdi:alpha-w-box"/>
+</g>
+<g class="combo combopos-6">
+<rect rx="6" ry="6" x="602" y="183" width="28" height="26" class="combo"/>
+<text x="616" y="196" class="combo tap">
+<tspan x="616" dy="-0.6em">Sft+Gui</tspan><tspan x="616" dy="1.2em">+S</tspan>
+</text>
 </g>
 </g>
 </g>
@@ -1655,6 +1683,12 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="350" y="183" width="28" height="26" class="combo"/>
 <use href="#mdi:alpha-w-box" xlink:href="#mdi:alpha-w-box" x="355" y="187" height="18" width="18.0" class="combo tap glyph mdi:alpha-w-box"/>
 </g>
+<g class="combo combopos-6">
+<rect rx="6" ry="6" x="602" y="183" width="28" height="26" class="combo"/>
+<text x="616" y="196" class="combo tap">
+<tspan x="616" dy="-0.6em">Sft+Gui</tspan><tspan x="616" dy="1.2em">+S</tspan>
+</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 1848)" class="layer-Brank Layer">
@@ -1886,6 +1920,12 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="350" y="183" width="28" height="26" class="combo"/>
 <use href="#mdi:alpha-w-box" xlink:href="#mdi:alpha-w-box" x="355" y="187" height="18" width="18.0" class="combo tap glyph mdi:alpha-w-box"/>
 </g>
+<g class="combo combopos-6">
+<rect rx="6" ry="6" x="602" y="183" width="28" height="26" class="combo"/>
+<text x="616" y="196" class="combo tap">
+<tspan x="616" dy="-0.6em">Sft+Gui</tspan><tspan x="616" dy="1.2em">+S</tspan>
+</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 2156)" class="layer-Brank2 Layer">
@@ -2116,6 +2156,12 @@ path.combo { stroke: #7f7f7f; }
 <path d="M364,196 l37,0" class="combo"/>
 <rect rx="6" ry="6" x="350" y="183" width="28" height="26" class="combo"/>
 <use href="#mdi:alpha-w-box" xlink:href="#mdi:alpha-w-box" x="355" y="187" height="18" width="18.0" class="combo tap glyph mdi:alpha-w-box"/>
+</g>
+<g class="combo combopos-6">
+<rect rx="6" ry="6" x="602" y="183" width="28" height="26" class="combo"/>
+<text x="616" y="196" class="combo tap">
+<tspan x="616" dy="-0.6em">Sft+Gui</tspan><tspan x="616" dy="1.2em">+S</tspan>
+</text>
 </g>
 </g>
 </g>

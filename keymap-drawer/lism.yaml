@@ -40,8 +40,8 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', h: Number Layer}
   - $$mdi:pan-up$$
-  - Sft+Gui+S
   - $$mdi:keyboard-esc$$
+  - {t: ▽, type: trans}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:pan-left$$
   - $$mdi:pan-down$$
@@ -405,3 +405,5 @@ combos:
   k: $$mdi:mouse-right-click-outline$$
 - p: [35, 36]
   k: $$mdi:alpha-w-box$$
+- p: [39, 40]
+  k: Sft+Gui+S
