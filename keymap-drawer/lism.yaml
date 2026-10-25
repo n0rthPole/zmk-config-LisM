@@ -40,8 +40,8 @@ layers:
   - BS
   - {t: ENTER, h: Number Layer}
   - {t: ▽, type: trans}
-  - Sft+Gui+S
   - ESCAPE
+  - {t: ▽, type: trans}
   - RCTRL
   Number Layer:
   - {t: ▽, type: trans}
@@ -357,3 +357,5 @@ combos:
   k: '&mkp RCLK'
 - p: [35, 36]
   k: Caps Word
+- p: [39, 40]
+  k: Sft+Gui+S
