@@ -8,6 +8,7 @@
 #include <behaviors/runtime-sensor-rotate.dtsi>
 #include <behaviors/default_layer.dtsi>
 #include <dt-bindings/zmk_behavior_default_layer/default_layer.h>
+#include <behaviors/runtime_macro.dtsi>
 
 &mt {
     tapping-term-ms = <300>;
