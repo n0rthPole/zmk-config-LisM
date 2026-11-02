@@ -16,6 +16,7 @@
         reg = <0>;
         spi-max-frequency = <2000000>;
         irq-gpios = <&xiao_d 6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+        res-cpi = <1550>;
     };
 };
 
@@ -30,19 +31,34 @@
 };
 
 // セントラルのリスナーを有効化し、deviceを紐付け
-&central_listener {
+&central_listener{
     status = "okay";
     device = <&trackball_central>;
     input-processors = 
-        <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT) 
-         &mouse_runtime_input_processor_central
-         &scroll_runtime_input_processor>;  
+        <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)
+         &scroll_runtime_input_processor
+         &zip_scroll_snap
+         &zip_scroll_scaler 1 12
+         &mouse_runtime_input_processor_central>;
 };
 
 &scroll_runtime_input_processor {
     x-codes = <INPUT_REL_X>;
     y-codes = <INPUT_REL_Y>;
     xy-to-scroll-enabled;
-    active-layers = <0x00000008>;   // 初期値：レイヤー3（Mark Layer）でスクロール
-    x-invert;                       // 旧設定の X 反転と同じ向き
+    scale-multiplier = <1>;
+    scale-divisor = <1>;
+    active-layers = <0x00000008>;   // スクロールするレイヤー（Studio で変更可）
+    x-invert;
+};
+
+// スクロールスナップの設定（main と同じ初期値）
+&zip_scroll_snap {
+    x-threshold = <5 8>;               // |y/x| < 5/8 なら横にスナップ
+    y-threshold = <1 1>;               // |y/x| > 1 なら縦にスナップ
+    require-n-samples = <10>;          // 判定に使うサンプル数
+    immediate-snap-threshold = <1500>; // 動きの合計がこれを超えたら即スナップ
+    lock-duration-ms = <200>;          // スナップ後に方向を固定する時間
+    lock-for-next-n-events = <10>;     // スナップ後に方向を固定するイベント数
+    idle-reset-timeout-ms = <200>;     // この時間止まると判定をリセット
 };
