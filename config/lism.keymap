@@ -16,7 +16,8 @@
 };
 
 &lt {
-    quick-tap-ms = <300>;
+    quick-tap-ms = <0>; // 初期設定は300
+    flavor = "balanced";
 };
 
 
